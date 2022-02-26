@@ -5,7 +5,9 @@
       "project_name": "Phrase Hunter",
       "description": "The user is presented with a random phrase he must guess. Each time the player guesses a letter, the gameboard displays the chosen letter on the screen. A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose).",
       "technologies": [
-        "JavaScript"
+        "JavaScript",
+        "CSS",
+        "HTML"
       ],
       "live_link": "https://stanciuvictor.github.io/Phrase_Hunter/",
       "github_link": "https://github.com/StanciuVictor/Phrase_Hunter",
@@ -22,7 +24,9 @@
       "description": "This app uses fetch API to grab information for 12 random users from Random User Generator API",
       "technologies": [
         "JavaScript",
-        "API"
+        "API",
+        "CSS",
+        "HTML"
       ],
       "live_link": "https://stanciuvictor.github.io/Public_API_Request/",
       "github_link": "https://github.com/StanciuVictor/Public_API_Request",
@@ -37,7 +41,9 @@
       "project_name": "Full Stack Conference Form",
       "description": "Simple form with real time validation",
       "technologies": [
-        "JavaScript"
+        "JavaScript",
+        "CSS",
+        "HTML"
       ],
       "live_link": "https://stanciuvictor.github.io/Interactive_Form/",
       "github_link": "https://github.com/StanciuVictor/Interactive_Form",
