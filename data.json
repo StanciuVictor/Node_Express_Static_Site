@@ -1,0 +1,53 @@
+{
+  "projects": [
+    {
+      "id": 0,
+      "project_name": "Phrase Hunter",
+      "description": "The user is presented with a random phrase he must guess. Each time the player guesses a letter, the gameboard displays the chosen letter on the screen. A player continues to select letters until they guess the phrase (and win), or make five incorrect guesses (and lose).",
+      "technologies": [
+        "JavaScript"
+      ],
+      "live_link": "https://stanciuvictor.github.io/Phrase_Hunter/",
+      "github_link": "https://github.com/StanciuVictor/Phrase_Hunter",
+      "image_urls": [
+        "/images/ph_welcome",
+        "/images/ph_play",
+        "/images/ph_win",
+        "/images/ph_lost"
+      ]
+    },
+    {
+      "id": 1,
+      "project_name": "Startup Employee Directory",
+      "description": "This app uses fetch API to grab information for 12 random users from Random User Generator API",
+      "technologies": [
+        "JavaScript",
+        "API"
+      ],
+      "live_link": "https://stanciuvictor.github.io/Public_API_Request/",
+      "github_link": "https://github.com/StanciuVictor/Public_API_Request",
+      "image_urls": [
+        "/images/su_welcome",
+        "/images/su_search",
+        "/images/su_modal"
+      ]
+    },
+    {
+      "id": 2,
+      "project_name": "Full Stack Conference Form",
+      "description": "Simple form with real time validation",
+      "technologies": [
+        "JavaScript"
+      ],
+      "live_link": "https://stanciuvictor.github.io/Interactive_Form/",
+      "github_link": "https://github.com/StanciuVictor/Interactive_Form",
+      "image_urls": [
+        "/images/if_welcome",
+        "/images/if_valid",
+        "/images/if_valid_2",
+        "/images/if_invalid",
+        "/images/if_invalid_2"
+      ]
+    }
+  ]
+}
