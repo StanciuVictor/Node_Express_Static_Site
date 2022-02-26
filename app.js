@@ -1,6 +1,6 @@
 // Add modules and files
 const express = require('express');
-const {projects} = require('./data.json');
+
 
 // Create express app
 const app = express();
@@ -12,23 +12,12 @@ app.set('view engine', 'pug');
 app.use('/static', express.static('public'));
 
 // Set routes
-app.get('/', (req, res) => {
-  console.log('\x1b[33m%s\x1b[0m', '********  GET on /  ********');
-  res.locals.projects = projects;
-  res.render('index');
-});
-
-app.get('/about', (req, res) => {
-  console.log('\x1b[33m%s\x1b[0m', '********  GET on /about  ********');
-  res.render('about');
-});
-
-app.get('/project/:id', (req, res) => {
-  const {id} = req.params;
-  console.log('\x1b[33m%s\x1b[0m', '********  GET on /project/:id  ********');
-  res.locals.project = projects[id];
-  res.render('project');
-});
+const rootRoute = require('./routes');
+const aboutRoute = require('./routes/about');
+const projectRoute = require('./routes/project');
+app.use(rootRoute);
+app.use('/about', aboutRoute);
+app.use('/project', projectRoute);
 
 // Handle errors
 // 404
