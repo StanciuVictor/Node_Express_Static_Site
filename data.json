@@ -10,10 +10,10 @@
       "live_link": "https://stanciuvictor.github.io/Phrase_Hunter/",
       "github_link": "https://github.com/StanciuVictor/Phrase_Hunter",
       "image_urls": [
-        "/images/ph_welcome",
-        "/images/ph_play",
-        "/images/ph_win",
-        "/images/ph_lost"
+        "/static/images/ph_welcome.png",
+        "/static/images/ph_play.png",
+        "/static/images/ph_win.png",
+        "/static/images/ph_lost.png"
       ]
     },
     {
@@ -27,9 +27,9 @@
       "live_link": "https://stanciuvictor.github.io/Public_API_Request/",
       "github_link": "https://github.com/StanciuVictor/Public_API_Request",
       "image_urls": [
-        "/images/su_welcome",
-        "/images/su_search",
-        "/images/su_modal"
+        "/static/images/su_welcome.png",
+        "/static/images/su_search.png",
+        "/static/images/su_modal.png"
       ]
     },
     {
@@ -42,11 +42,11 @@
       "live_link": "https://stanciuvictor.github.io/Interactive_Form/",
       "github_link": "https://github.com/StanciuVictor/Interactive_Form",
       "image_urls": [
-        "/images/if_welcome",
-        "/images/if_valid",
-        "/images/if_valid_2",
-        "/images/if_invalid",
-        "/images/if_invalid_2"
+        "/static/images/if_welcome.png",
+        "/static/images/if_valid.png",
+        "/static/images/if_valid_2.png",
+        "/static/images/if_invalid.png",
+        "/static/images/if_invalid_2.png"
       ]
     }
   ]
