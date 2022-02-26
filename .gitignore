@@ -4,3 +4,6 @@ node_modules/
 # Ignore examples and mockups
 example-html/
 mockups/
+
+# Ignore debug file
+.vscode/
