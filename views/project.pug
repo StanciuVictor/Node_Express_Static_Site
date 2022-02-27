@@ -18,6 +18,7 @@ block content
       .project-tech-links-box.box
         h6 Technologies
         ul
+          //- create li element for every technology
           each technology in project.technologies
             li #{technology}
 
@@ -26,6 +27,7 @@ block content
 
     .project-img-box.box
 
+      //- Display each image of the project
       each image in project.image_urls
         img.project-img(src=`${image}`, alt=`${image}`)
 
