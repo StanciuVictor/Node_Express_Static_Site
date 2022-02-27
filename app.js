@@ -31,7 +31,11 @@ app.use((req, res, next) => {
 // Global error
 app.use((err, req, res, next) => {
   err.status = err.status || 500;
-  err.message = err.message || 'Oops! Looks like something went wrong';
+  
+  if (err.status !== 404) {
+    err.message = 'Oops! Looks like something went wrong';
+  }
+
   console.log('\x1b[31m%s\x1b[0m', `${err.status} ${err.message}`);
   res.status(err.status);
 

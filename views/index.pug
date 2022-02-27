@@ -11,7 +11,7 @@ block content
   article.portfolio-project-thumbs
     .projects-box.box.grid
 
-      each project in projects
+      each project in project
         .cell
           a(href=`/project/${projects.indexOf(project)}`)
             img.thumbnail(src=`${project.image_urls[0]}`, alt=`${project.project_name} Thumbnail`)
