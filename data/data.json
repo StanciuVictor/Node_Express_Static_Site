@@ -54,6 +54,44 @@
         "/static/images/if_invalid.png",
         "/static/images/if_invalid_2.png"
       ]
+    },
+    {
+      "id": 3,
+      "project_name": "Random Quote Generator",
+      "description": "This code takes a random quote stored in an array and displays it on the web page, alongside its source, citation, year and tag(s). Every time the button \"Show another quote\" is pressed, another random quote is displayed and the background color of the web page changes to a random one. Every ten seconds (regardless of the button being pressed or not), another random quote and background color are displayed.",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "https://stanciuvictor.github.io/Random_Quote_Generator/",
+      "github_link": "https://github.com/StanciuVictor/Random_Quote_Generator",
+      "image_urls": [
+        "/static/images/rq_welcome.png",
+        "/static/images/rq_1.png",
+        "/static/images/rq_2.png",
+        "/static/images/rq_3.png",
+        "/static/images/rq_4.png"
+      ]
+    },
+    {
+      "id": 4,
+      "project_name": "Data Pagination and Filtering",
+      "description": "This application takes students' info from an array of 42 elements and displays 9 students per page, giving the user the option to filter them in real time.",
+      "technologies": [
+        "JavaScript",
+        "CSS",
+        "HTML"
+      ],
+      "live_link": "https://stanciuvictor.github.io/Data_Pagination_and_Filtering/",
+      "github_link": "https://github.com/StanciuVictor/Data_Pagination_and_Filtering",
+      "image_urls": [
+        "/static/images/dp_welcome.png",
+        "/static/images/dp_1.png",
+        "/static/images/dp_2.png",
+        "/static/images/dp_3.png",
+        "/static/images/dp_4.png"
+      ]
     }
   ]
 }
