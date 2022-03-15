@@ -1,4 +1,4 @@
-# [Static Node and Express Site](https://git.heroku.com/victor-stanciu-portfolio.git)
+# [Static Node and Express Site](https://victor-stanciu-portfolio.herokuapp.com/)
 
 This is a portfolio site to showcase some of the projects I've built.
 
