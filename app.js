@@ -58,6 +58,6 @@ app.use((err, req, res, next) => {
 });
 
 // Listen on port 3000
-app.listen(3000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log('\x1b[36m\x1b[1m%s\x1b[0m', 'The application is running on localhost:3000!');
 });
